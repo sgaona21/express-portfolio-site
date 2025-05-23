@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sgaona21.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/sgaona21/data-pagination-and-filtering.git",
-            "image_urls": ["/images/project2-thumb.png", "/images/project2-full.png"]
+            "image_urls": ["/images/rsz_project2-thumb.png", "/images/project2-full.png"]
         },
         {
             "id": 2,
@@ -38,7 +38,7 @@
         },
         {
             "id": 4,
-            "project_name": "Awesome Startup Employee Directory API",
+            "project_name": "Startup Employee Directory API",
             "description": "An interactive directory that pulls employee data from an API",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sgaona21.github.io/AwesomeStarupEmpDirectoryAPI/",
