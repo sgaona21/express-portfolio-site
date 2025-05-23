@@ -1,0 +1,49 @@
+{
+    "projects" : [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "An app that displays a random quote each time a button is clicked",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sgaona21.github.io/random-quote-generator/",
+            "github_link": "https://github.com/sgaona21/random-quote-generator.git",
+            "image_urls": ["/images/project1-thumb.png", "/images/project1-full.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "An app that displays an employee directory with pagination and a search filter function",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sgaona21.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/sgaona21/data-pagination-and-filtering.git",
+            "image_urls": ["/images/project2-thumb.png", "/images/project2-full.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Full Stack Conference",
+            "description": "An interactive form integrated with input validation",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sgaona21.github.io/interactive-form/",
+            "github_link": "https://github.com/sgaona21/interactive-form.git",
+            "image_urls": ["/images/project3-thumb.png", "/images/project3-full.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "An wheel of fortune style guessing game",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sgaona21.github.io/OOP-Game-Show-App/",
+            "github_link": "https://github.com/sgaona21/OOP-Game-Show-App.git",
+            "image_urls": ["/images/project4-thumb.png", "/images/project4-full.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Awesome Startup Employee Directory API",
+            "description": "An interactive directory that pulls employee data from an API",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sgaona21.github.io/AwesomeStarupEmpDirectoryAPI/",
+            "github_link": "https://github.com/sgaona21/AwesomeStarupEmpDirectoryAPI.git",
+            "image_urls": ["/images/project5-thumb.png", "/images/project5-full.png"]
+        }
+    ]
+}
