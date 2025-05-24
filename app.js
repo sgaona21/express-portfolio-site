@@ -33,12 +33,14 @@ app.get('/projects/:id', (req, res, next) => {
 app.use((req, res, next) => {
     const err = new Error('The page you requested doesnt exist.');
     err.status = 404;
+    console.log(`404 Error: Status ${err.status}, Message: ${err.message}`);
     next(err);
 })
 
 app.use((err, req, res, next) => {
     err.status = err.status || 500;
-    err.message = err.message || 'There was a Server Error'
+    err.message = err.message || 'There was a Server Error';
+    console.log(`Status: ${err.status}, Message: ${err.message}`);
     res.status(err.status).send(`<h1>Error ${err.status}</h1><p>${err.message}</p>`);
 })
 
