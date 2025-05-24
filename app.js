@@ -7,15 +7,17 @@ const projects = portfolioData.projects;
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
-
+//index routes 
 app.get('/', (req, res) => {
     res.render('index', { projects });
 })
 
+//about page routes
 app.get('/about', (req, res) => {
     res.render('about', { projects });
 })
 
+//indivudual project routes 
 app.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = projects[projectId];
@@ -37,6 +39,7 @@ app.use((req, res, next) => {
     next(err);
 })
 
+//global error handler 
 app.use((err, req, res, next) => {
     err.status = err.status || 500;
     err.message = err.message || 'There was a Server Error';
